@@ -14,7 +14,7 @@
  * Plugin Name:         Integration with Mautic for WooCommerce - Open Source Marketing Automation
  * Plugin URI:          https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
  * Description:         A very powerful plugin to integrate your WooCommerce store with Mautic seamlessly.
- * Version:             2.1.5
+ * Version:             2.2.0
  * Requires at least:   4.4
  * Tested up to:        5.8
  * WC requires at least:    3.0.0
@@ -104,7 +104,7 @@ if ( $mautic_woo_wc_activated && ! $mautic_woo_pro_activated ) {
 	function mauwoo_define_constants() {
 		mauwoo_define( 'MAUTIC_WOO_ABSPATH', dirname( __FILE__ ) . '/' );
 		mauwoo_define( 'MAUTIC_WOO_URL', plugin_dir_url( __FILE__ ) . '/' );
-		mauwoo_define( 'MAUTIC_WOO_VERSION', '2.1.5' );
+		mauwoo_define( 'MAUTIC_WOO_VERSION', '2.2.0' );
 		mauwoo_define( 'MAUTIC_WOO_INTEGRATION_EMAIL', 'integrations@makewebbetter.com' );
 		mauwoo_define( 'MAUTIC_WOO_SYNC_LIMIT', 100 );
 		mauwoo_define( 'MAUTIC_WOO_PRO_LINK', 'https://bit.ly/2nPdpkh' );
