@@ -5,7 +5,6 @@
  * Base plugin file which checks all the dependecies for the plugin.
  *
  * @package    enhanced-woocommerce-mautic-integration
- * @subpackage enhanced-woocommerce-mautic-integration/includes
  * @link       https://makewebbetter.com/
  * @since      1.0.0
  * @author     <webmaster@makewebbetter.com>
@@ -13,17 +12,18 @@
  *
  * @wordpress-plugin
  * Plugin Name:         Integration with Mautic for WooCommerce - Open Source Marketing Automation
+ * Plugin URI:          https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
  * Description:         A very powerful plugin to integrate your WooCommerce store with Mautic seamlessly.
- * Version:             2.0.7
+ * Version:             2.1.5
  * Requires at least:   4.4
- * Tested up to:        5.3.2
+ * Tested up to:        5.8
  * WC requires at least:    3.0.0
- * WC tested up to:         3.9.2 
+ * WC tested up to:         5.5.2
  * Author:            MakeWebBetter
  * Author URI:        https://makewebbetter.com/
  * License:           GPL-3.0+
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.txt
- * Text Domain:       mautic-woo
+ * Text Domain:       enhanced-woocommerce-mautic-integration
  * Domain Path:       /languages
  */
 
@@ -104,10 +104,12 @@ if ( $mautic_woo_wc_activated && ! $mautic_woo_pro_activated ) {
 	function mauwoo_define_constants() {
 		mauwoo_define( 'MAUTIC_WOO_ABSPATH', dirname( __FILE__ ) . '/' );
 		mauwoo_define( 'MAUTIC_WOO_URL', plugin_dir_url( __FILE__ ) . '/' );
-		mauwoo_define( 'MAUTIC_WOO_VERSION', '2.0.7' );
+		mauwoo_define( 'MAUTIC_WOO_VERSION', '2.1.5' );
 		mauwoo_define( 'MAUTIC_WOO_INTEGRATION_EMAIL', 'integrations@makewebbetter.com' );
 		mauwoo_define( 'MAUTIC_WOO_SYNC_LIMIT', 100 );
 		mauwoo_define( 'MAUTIC_WOO_PRO_LINK', 'https://bit.ly/2nPdpkh' );
+		mauwoo_define( 'MAUTIC_WOO_DIR_PATH', plugin_dir_path( __FILE__ ) );
+
 	}
 
 	/**
@@ -132,6 +134,7 @@ if ( $mautic_woo_wc_activated && ! $mautic_woo_pro_activated ) {
 	 * @link   https://makewebbetter.com/
 	 * @param  array  $actions this parameter define the action of Plugin.
 	 * @param  string $plugin_file  this parameter define the plugin files.
+	 * @return array - Action Links
 	 */
 	function mauwoo_admin_settings( $actions, $plugin_file ) {
 
@@ -145,7 +148,7 @@ if ( $mautic_woo_wc_activated && ! $mautic_woo_pro_activated ) {
 		if ( $plugin === $plugin_file ) {
 
 			$settings = array(
-				'settings' => '<a href="' . esc_url( admin_url( 'admin.php?page=mautic-woo' ) ) . '">' . esc_html__( 'Settings', 'mautic-woo' ) . '</a>',
+				'settings' => '<a href="' . esc_url( admin_url( 'admin.php?page=mautic-woo' ) ) . '">' . esc_html__( 'Settings', 'enhanced-woocommerce-mautic-integration' ) . '</a>',
 			);
 
 			$actions = array_merge( $settings, $actions );
@@ -155,6 +158,7 @@ if ( $mautic_woo_wc_activated && ! $mautic_woo_pro_activated ) {
 	}
 
 	// add link for settings.
+
 	add_filter( 'plugin_action_links', 'mauwoo_admin_settings', 10, 5 );
 
 	/**
@@ -163,14 +167,15 @@ if ( $mautic_woo_wc_activated && ! $mautic_woo_pro_activated ) {
 	 * @since 1.0.0
 	 * @param array  $links array of links.
 	 * @param string $file file path.
+	 * @return array - Plugin section links related to this plugin
 	 */
 	function mautic_woo_plugin_row_meta( $links, $file ) {
 
 		if ( strpos( $file, 'enhanced-woocommerce-mautic-integration.php' ) !== false ) {
 
 			$row_meta = array(
-				'docs'  => '<a href="' . esc_url( 'https://docs.makewebbetter.com/enhanced-woocommerce-mautic-integration/' ) . '">' . esc_html__( 'Docs', 'mautic-woo' ) . '</a>',
-				'goPro' => '<a style="color:#06fd11" href="' . esc_url( MAUTIC_WOO_PRO_LINK ) . '">' . esc_html__( 'Go Premium', 'mautic-woo' ) . '</a>',
+				'docs'  => '<a href="' . esc_url( 'https://docs.makewebbetter.com/enhanced-woocommerce-mautic-integration/' ) . '">' . esc_html__( 'Docs', 'enhanced-woocommerce-mautic-integration' ) . '</a>',
+				'goPro' => '<a style="color:#06fd11" href="' . esc_url( MAUTIC_WOO_PRO_LINK ) . '">' . esc_html__( 'Go Premium', 'enhanced-woocommerce-mautic-integration' ) . '</a>',
 			);
 			return array_merge( $links, $row_meta );
 		}
@@ -187,7 +192,7 @@ if ( $mautic_woo_wc_activated && ! $mautic_woo_pro_activated ) {
 	function mautic_woo_activation_redirect( $plugin ) {
 
 		if ( 'enhanced-woocommerce-mautic-integration/enhanced-woocommerce-mautic-integration.php' === $plugin ) {
-			echo $plugin;
+			echo esc_html( $plugin );
 			wp_safe_redirect( esc_url( admin_url( 'admin.php?page=mautic-woo' ) ) );
 			exit();
 		}
@@ -220,14 +225,14 @@ if ( $mautic_woo_wc_activated && ! $mautic_woo_pro_activated ) {
 	function mauwoo_plugin_error_notice() {
 		global $error_notice;
 		if ( 1 === $error_notice ) {
-			$notice_message = esc_html__( 'WooCommerce is not activated, Please activate WooCommerce first to install Integration with Mautic for WooCommerce.', 'mautic-woo' );
+			$notice_message = esc_html__( 'WooCommerce is not activated, Please activate WooCommerce first to install Integration with Mautic for WooCommerce.', 'enhanced-woocommerce-mautic-integration' );
 		}
 		if ( 2 === $error_notice ) {
-			$notice_message = esc_html__( 'Mautic WooCommerce Marketing Automation is activated, Please de-activate that first to install Integration with Mautic for WooCommerce.', 'mautic-woo' );
+			$notice_message = esc_html__( 'Mautic WooCommerce Marketing Automation is activated, Please de-activate that first to install Integration with Mautic for WooCommerce.', 'enhanced-woocommerce-mautic-integration' );
 		}
 		?>
 		<div class="error notice is-dismissible">
-		<p><?php esc_html_e( 'WooCommerce is not activated, Please activate WooCommerce first to install Integration with Mautic for WooCommerce.', 'mautic-woo' ); ?>
+		<p><?php esc_html_e( 'WooCommerce is not activated, Please activate WooCommerce first to install Integration with Mautic for WooCommerce.', 'enhanced-woocommerce-mautic-integration' ); ?>
 		</p>
 		</div>
 		<style>
