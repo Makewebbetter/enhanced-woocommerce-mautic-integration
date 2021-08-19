@@ -5,7 +5,8 @@
  * Template for showing/managing all the mautic general settings
  *
  * @since 1.0.0
- * @package  enhanced-woocommerce-mautic-integratio
+ * @package  enhanced-woocommerce-mautic-integration
+ * @subpackage enhanced-woocommerce-mautic-integration/admin/templates
  */
 
 $GLOBALS['hide_save_button'] = true;

@@ -8,7 +8,7 @@
  * @since      1.0.0
  *
  * @package    enhanced-woocommerce-mautic-integration
- * @subpackage enhanced-woocommerce-mautic-integration/extra-templates/
+ * @subpackage enhanced-woocommerce-mautic-integration/extra-templates
  */
 
 ?>

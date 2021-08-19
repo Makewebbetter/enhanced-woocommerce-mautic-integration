@@ -447,13 +447,11 @@ class Mautic_Woo {
 			default:
 				$classes .= 'error';
 		}
-
-		$notice  = '<div class="' . esc_attr( $classes ) . '">';
-		$notice .= '<p>' . esc_html( $message ) . '</p>';
-		$notice .= '</div>';
-
-		// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-		printf( $notice ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		?>
+		<div class="<?php echo esc_attr( $classes ); ?>">
+		<p><?php echo esc_html( $message ); ?></p>
+		</div>
+		<?php
 	}
 
 	/**

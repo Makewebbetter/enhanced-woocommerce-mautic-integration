@@ -18,7 +18,7 @@
  * Requires at least:   4.4
  * Tested up to:        5.8
  * WC requires at least:    3.0.0
- * WC tested up to:         5.5.2
+ * WC tested up to:         5.6.0
  * Author:            MakeWebBetter
  * Author URI:        https://makewebbetter.com/
  * License:           GPL-3.0+

@@ -177,7 +177,7 @@
 	box-shadow: none !important;
 }
 .mwb-customer-data-form-single-field .select2-search-choice {
-	float: none !important
+	float: none !important;
 	padding: 10px !important;
 	text-align: left;
 }
@@ -255,7 +255,7 @@ input#s2id_autogen1 {
 	-o-transition: transform 0.3s ease-out;
 	-webkit-transition: transform 0.3s ease-out;
 	color: #ffffff;
-	content: "\279E"; // arrow right unicode
+	content: "\279E";
 	display: inline-block;
 	display: inline-block;
 	font-size: 20px;

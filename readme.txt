@@ -4,9 +4,9 @@ Contributors: MakeWebBetter
 Donate link:  https://makewebbetter.com/
 Tags: ecommerce, marketing automation, mautic, mautic integration, woocommerce
 Requires at least: 4.4
-Tested up to: 5.7.1
+Tested up to: 5.8
 WC requires at least: 3.0.0
-WC tested up to: 5.2.2
+WC tested up to: 5.6.0
 Stable tag: 2.1.5
 Requires PHP: 5.6
 License: GPLv3 or later 

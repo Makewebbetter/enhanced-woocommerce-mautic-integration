@@ -6,6 +6,7 @@
  *
  * @since 1.0.0
  * @package  enhanced-woocommerce-mautic-integration
+ * @subpackage enhanced-woocommerce-mautic-integration/admin/templates
  */
 
 // check if the connect is entered and have valid connect..
@@ -214,16 +215,10 @@ if ( ! $mautic_woo->is_oauth_success() && ! $mautic_woo->is_valid_client_id_stor
 									<p class="mauwoo-acces-token-renewal">
 									<?php
 
-
 									/* translators: 1: seconds  2: time */
 									$day_string = sprintf( _n( ' In %s second', 'In %s seconds', $exact_timestamp, 'enhanced-woocommerce-mautic-integration' ), number_format_i18n( $exact_timestamp ) );
-
-									$day_string = '<span id="mauwoo-day-count" >' . esc_html( $day_string ) . '</span>';
-
-									//phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-									printf( $day_string );
-
 									?>
+									<span id="mauwoo-day-count" ><?php echo esc_html( $day_string ); ?></span>
 									</p>
 									<?php
 							} else {

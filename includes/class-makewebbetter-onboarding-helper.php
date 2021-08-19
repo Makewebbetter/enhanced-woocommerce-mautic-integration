@@ -937,8 +937,8 @@ class Makewebbetter_Onboarding_Helper {
 
 		$response = $this->hic_post( $url, $form_data, $headers );
 
-		if ( $response['status_code'] == 200 ) {
-			$result = json_decode( $response['response'], true );
+		if ( 200 === (int) $response['status_code'] ) {
+			$result            = json_decode( $response['response'], true );
 			$result['success'] = true;
 		} else {
 

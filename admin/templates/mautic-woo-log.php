@@ -4,7 +4,9 @@
  *
  * This file is used to markup the admin settings of the plugin.
  *
- * @package enhanced-woocommerce-mautic-integration
+ * @since 1.0.0
+ * @package  enhanced-woocommerce-mautic-integration
+ * @subpackage enhanced-woocommerce-mautic-integration/admin/templates
  */
 
 $log_dir = WC_LOG_DIR . 'mautic-woo-logs.log';

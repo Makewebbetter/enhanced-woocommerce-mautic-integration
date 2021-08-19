@@ -4,7 +4,9 @@
  *
  * This file is used to markup the admin settings of the plugin.
  *
- * @package enhanced-woocommerce-mautic-integration
+ * @since 1.0.0
+ * @package  enhanced-woocommerce-mautic-integration
+ * @subpackage enhanced-woocommerce-mautic-integration/admin/templates
  */
 
 $mautic_woo_selected_properties = Mautic_Woo::mautic_woo_user_selected_fields();
