@@ -414,7 +414,7 @@ class Mautic_Woo {
 		} else {
 
 			/* translators: %s: file path */
-			$notice = sprintf( __( 'Unable to locate file path at location "%s". Some features may not work properly in Integration with Mautic for WooCommerce, please contact us!', 'mautic-woo' ), $file_path );
+			$notice = sprintf( __( 'Unable to locate file path at location "%s". Some features may not work properly in Integration with Mautic for WooCommerce, please contact us!', 'enhanced-woocommerce-mautic-integration' ), $file_path );
 
 			$this->mautic_woo_notice( $notice, 'error' );
 		}

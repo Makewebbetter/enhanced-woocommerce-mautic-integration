@@ -328,7 +328,7 @@
 					jQuery( '.mauwoo_pop_up_wrap' ).show();
 				}
 			);
-			jQuery( '#mautic_woo_close_popup' ).click(
+			jQuery( '#mautic_woo_close_popup' ).on( 'click',
 				function(){
 					$( '.mauwoo_pop_up_wrap' ).hide();
 

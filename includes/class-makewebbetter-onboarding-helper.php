@@ -381,7 +381,7 @@ class Makewebbetter_Onboarding_Helper {
 
 			rand() => array(
 				'id' => 'onboard-email',
-				'label' => esc_html__( 'What is the best email address to contact you?' ),
+				'label' => esc_html__( 'What is the best email address to contact you?', 'enhanced-woocommerce-mautic-integration' ),
 				'type' => 'email',
 				'name' => 'email',
 				'value' => $current_user_email,
@@ -391,7 +391,7 @@ class Makewebbetter_Onboarding_Helper {
 
 			rand() => array(
 				'id' => 'onboard-number',
-				'label' => esc_html__( 'What is your contact number?' ),
+				'label' => esc_html__( 'What is your contact number?', 'enhanced-woocommerce-mautic-integration' ),
 				'type' => 'text',
 				'name' => 'phone',
 				'value' => '',
@@ -635,7 +635,7 @@ class Makewebbetter_Onboarding_Helper {
 					<select class="on-boarding-select-field <?php echo esc_html( $select2 ); ?> <?php echo esc_html( $class ); ?>" id="<?php echo esc_html( $id ); ?>" name="<?php echo esc_html( $name ); ?>[]" <?php echo esc_html( $required ); ?> <?php echo esc_html( $is_multiple ); ?>>
 
 						<?php if ( 'select' == $type ) : ?>	
-							<option class="on-boarding-options" value=""><?php esc_html( 'Select Any One Option...', 'textdomain' ); ?></option>
+							<option class="on-boarding-options" value=""><?php esc_html_e( 'Select Any One Option...', 'enhanced-woocommerce-mautic-integration' ); ?></option>
 						<?php endif; ?>
 
 						<?php foreach ( $options as $option_value => $option_label ) : ?>	
