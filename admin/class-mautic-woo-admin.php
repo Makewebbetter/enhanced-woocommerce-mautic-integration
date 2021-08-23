@@ -64,7 +64,7 @@ class Mautic_Woo_Admin {
 	 * @since 1.0.0
 	 */
 	public function add_mautic_woo_submenu() {
-		add_submenu_page( 'woocommerce', esc_html__( 'Mautic', 'enhanced-woocommerce-mautic-integration' ), esc_html__( 'Mautic', 'enhanced-woocommerce-mautic-integration' ), esc_html__( 'manage_woocommerce', 'enhanced-woocommerce-mautic-integration' ), array( &$this, 'mautic_woo_configurations' ) );
+		add_submenu_page( 'woocommerce', esc_html__( 'Mautic', 'enhanced-woocommerce-mautic-integration' ), esc_html__( 'Mautic', 'enhanced-woocommerce-mautic-integration' ), 'manage_woocommerce', 'mautic-woo', array( &$this, 'mautic_woo_configurations' ) );
 	}
 
 	/**
