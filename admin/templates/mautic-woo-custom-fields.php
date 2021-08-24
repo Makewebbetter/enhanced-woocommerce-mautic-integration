@@ -121,7 +121,7 @@ $final_properties               = Mautic_Woo::mautic_woo_get_final_fields();
 
 
 <p class="text-center">
-	<?php esc_html_e( 'Overview of fields available on your Mautic Account. You can create new field directly from here.', ' enhanced-woocommerce-mautic-integration' ); ?>
+	<?php esc_html_e( 'Overview of fields available on your Mautic Account. You can create new field directly from here.', 'enhanced-woocommerce-mautic-integration' ); ?>
 </p>
 <div class="mauwoo-fields-created">
 	<div class="mauwoo-fields-created-list mauwoo_groups">

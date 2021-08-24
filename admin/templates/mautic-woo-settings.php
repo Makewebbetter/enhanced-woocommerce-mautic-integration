@@ -113,7 +113,7 @@
 				$custom_tags = get_option( 'mautic-woo-custom-tags', '' );
 
 				?>
-				<input type="text" name="mautic-woo-custom-tags" value="<?php echo esc_attr( $custom_tags ); ?>" class="mautic-woo-custom-tags" placeholder="<?php echo esc_attr( 'tag1 , tag2' ); ?>">
+				<input type="text" name="mautic-woo-custom-tags" value="<?php echo esc_attr( $custom_tags ); ?>" class="mautic-woo-custom-tags" placeholder="<?php esc_html_e( 'tag1 , tag2', 'enhanced-woocommerce-mautic-integration' ); ?>">
 			</div>
 			<div class="mauwoo-order-status">
 				<label for="mautic_woo_sync_method"><?php esc_html_e( 'Preferred sync method', 'enhanced-woocommerce-mautic-integration' ); ?></label>

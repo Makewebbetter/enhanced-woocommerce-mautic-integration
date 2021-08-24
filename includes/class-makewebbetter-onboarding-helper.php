@@ -488,12 +488,12 @@ class Makewebbetter_Onboarding_Helper {
 				'required' => 'yes',
 				'extra-class' => '',
 				'options' => array(
-					'temporary-deactivation-for-debug'      => 'It is a temporary deactivation. I am just debugging an issue.',
-					'site-layout-broke'         => 'The plugin broke my layout or some functionality.',
-					'complicated-configuration'         => 'The plugin is too complicated to configure.',
-					'no-longer-need'        => 'I no longer need the plugin',
-					'found-better-plugin'       => 'I found a better plugin',
-					'other'         => 'Other',
+					'temporary-deactivation-for-debug' => esc_html__( 'It is a temporary deactivation. I am just debugging an issue.', 'enhanced-woocommerce-mautic-integration' ),
+					'site-layout-broke'                => esc_html__( 'The plugin broke my layout or some functionality.', 'enhanced-woocommerce-mautic-integration' ),
+					'complicated-configuration'        => esc_html__( 'The plugin is too complicated to configure.', 'enhanced-woocommerce-mautic-integration' ),
+					'no-longer-need'                   => esc_html__( 'I no longer need the plugin', 'enhanced-woocommerce-mautic-integration' ),
+					'found-better-plugin'              => esc_html__( 'I found a better plugin', 'enhanced-woocommerce-mautic-integration' ),
+					'other'                            => esc_html__( 'Other', 'enhanced-woocommerce-mautic-integration' ),
 				),
 			),
 

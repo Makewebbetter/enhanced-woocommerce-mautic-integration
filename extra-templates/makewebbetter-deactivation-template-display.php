@@ -38,7 +38,7 @@ if ( empty( $pagenow ) || 'plugins.php' !== $pagenow ) {
 				<?php endforeach; ?>
 				<div class="mwb-on-boarding-form-btn__wrapper">
 					<div class="mwb-on-boarding-form-submit mwb-on-boarding-form-verify ">
-					<input type="submit" class="mwb-on-boarding-submit mwb-on-boarding-verify " value="Send Us">
+					<input type="submit" class="mwb-on-boarding-submit mwb-on-boarding-verify " value="<?php esc_html_e( 'Send Us', 'enhanced-woocommerce-mautic-integration' ); ?>">
 				</div>
 				<div class="mwb-on-boarding-form-no_thanks">
 					<a href="#" class="mwb-deactivation-no_thanks"><?php esc_html_e( 'Skip and Deactivate Now', 'enhanced-woocommerce-mautic-integration' ); ?></a>
