@@ -15,7 +15,7 @@ $form_fields = apply_filters( 'mwb_on_boarding_form_fields', array() );
 
 ?>
 
-<?php if ( ! empty( $form_fields ) ) : ?>
+<?php if ( ! empty( $form_fields ) && isset( $_GET['page'] ) && 'mautic-woo' === sanitize_text_field( wp_unslash( $_GET['page'] ) ) ) : //phpcs:ignore WordPress.Security.NonceVerification.Recommended ?>
 	<div class="mwb-onboarding-section">
 		<div class="mwb-on-boarding-wrapper-background">
 			<div class="mwb-on-boarding-wrapper">
@@ -24,8 +24,20 @@ $form_fields = apply_filters( 'mwb_on_boarding_form_fields', array() );
 						<span class="close-form">x</span>
 					</a>
 				</div>
-				<h3 class="mwb-on-boarding-heading"><?php esc_html_e( 'Welcome to MakeWebBetter ', 'enhanced-woocommerce-mautic-integration' ); ?></h3>
-				<p class="mwb-on-boarding-desc"><?php esc_html_e( 'We love making new friends! Subscribe below and we promise to keep you up-to-date with our latest new plugins, updates, awesome deals and a few special offers.', 'enhanced-woocommerce-mautic-integration' ); ?></p>
+				<h3 class="mwb-on-boarding-heading">
+				<?php
+				echo sprintf(
+					esc_html__( 'Welcome to MakeWebBetter ', 'enhanced-woocommerce-mautic-integration' )
+				);
+				?>
+				</h3>
+				<p class="mwb-on-boarding-desc">
+				<?php
+				echo sprintf(
+					esc_html__( 'We love making new friends! Subscribe below and we promise to keep you up-to-date with our latest new plugins, updates, awesome deals and a few special offers.', 'enhanced-woocommerce-mautic-integration' )
+				);
+				?>
+				</p>
 				<form action="#" method="post" class="mwb-on-boarding-form">
 					<?php foreach ( $form_fields as $key => $field_attr ) : ?>
 						<?php $this->render_field_html( $field_attr ); ?>

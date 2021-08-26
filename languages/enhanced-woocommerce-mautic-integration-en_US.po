@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-08-23 17:48+0530\n"
-"PO-Revision-Date: 2021-08-24 17:39+0530\n"
+"POT-Creation-Date: 2021-08-25 20:38+0530\n"
+"PO-Revision-Date: 2021-08-25 20:39+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -636,25 +636,29 @@ msgid ""
 "them with comma, i.e. tag1 , tag2"
 msgstr ""
 
-#: admin/templates/mautic-woo-settings.php:119
+#: admin/templates/mautic-woo-settings.php:118
+msgid "tag1 , tag2"
+msgstr ""
+
+#: admin/templates/mautic-woo-settings.php:124
 msgid "Preferred sync method"
 msgstr ""
 
-#: admin/templates/mautic-woo-settings.php:123
+#: admin/templates/mautic-woo-settings.php:128
 msgid "Select your preferred method to sync user activity on Mautic."
 msgstr ""
 
-#: admin/templates/mautic-woo-settings.php:133
 #: admin/templates/mautic-woo-settings.php:138
+#: admin/templates/mautic-woo-settings.php:143
 msgid "In every 5 minutes"
 msgstr ""
 
-#: admin/templates/mautic-woo-settings.php:134
 #: admin/templates/mautic-woo-settings.php:139
+#: admin/templates/mautic-woo-settings.php:144
 msgid "Instant Sync"
 msgstr ""
 
-#: admin/templates/mautic-woo-settings.php:147
+#: admin/templates/mautic-woo-settings.php:152
 msgid "Save settings"
 msgstr ""
 
@@ -706,11 +710,27 @@ msgstr ""
 msgid "May we have a little info about why you are deactivating?"
 msgstr ""
 
+#: extra-templates/makewebbetter-deactivation-template-display.php:41
+#: extra-templates/makewebbetter-onboarding-template-display.php:47
+msgid "Send Us"
+msgstr ""
+
 #: extra-templates/makewebbetter-deactivation-template-display.php:44
 msgid "Skip and Deactivate Now"
 msgstr ""
 
-#: extra-templates/makewebbetter-onboarding-template-display.php:38
+#: extra-templates/makewebbetter-onboarding-template-display.php:30
+msgid "Welcome to MakeWebBetter "
+msgstr ""
+
+#: extra-templates/makewebbetter-onboarding-template-display.php:37
+msgid ""
+"We love making new friends! Subscribe below and we promise to keep you up-to-"
+"date with our latest new plugins, updates, awesome deals and a few special "
+"offers."
+msgstr ""
+
+#: extra-templates/makewebbetter-onboarding-template-display.php:50
 msgid "Skip For Now"
 msgstr ""
 
@@ -728,6 +748,30 @@ msgstr ""
 
 #: includes/class-makewebbetter-onboarding-helper.php:394
 msgid "What is your contact number?"
+msgstr ""
+
+#: includes/class-makewebbetter-onboarding-helper.php:491
+msgid "It is a temporary deactivation. I am just debugging an issue."
+msgstr ""
+
+#: includes/class-makewebbetter-onboarding-helper.php:492
+msgid "The plugin broke my layout or some functionality."
+msgstr ""
+
+#: includes/class-makewebbetter-onboarding-helper.php:493
+msgid "The plugin is too complicated to configure."
+msgstr ""
+
+#: includes/class-makewebbetter-onboarding-helper.php:494
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: includes/class-makewebbetter-onboarding-helper.php:495
+msgid "I found a better plugin"
+msgstr ""
+
+#: includes/class-makewebbetter-onboarding-helper.php:496
+msgid "Other"
 msgstr ""
 
 #: includes/class-makewebbetter-onboarding-helper.php:638
