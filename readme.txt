@@ -1,31 +1,31 @@
-=== Integration with Mautic for WooCommerce - Open Source Marketing Automation ===
+=== Integration with Mautic for WooCommerce - Marketing Automation, Abandoned Cart, Email Marketing ===
 
 Contributors: MakeWebBetter
 Donate link:  https://makewebbetter.com/
-Tags: ecommerce, marketing automation, mautic, mautic integration, woocommerce
+Tags: marketing automation, mautic, mautic integration, woocommerce, ecommerce
 Requires at least: 4.4
 Tested up to: 5.8
 WC requires at least: 3.0.0
 WC tested up to: 5.6.0
-Stable tag: 2.1.5
-Requires PHP: 5.6
+Stable tag: 2.2.0
+Requires PHP: 5.6 or higher
 License: GPLv3 or later 
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 
-Sync your WooCommerce contacts on Mautic seamlessly with our Integration with Mautic for WooCommerce plugin.
+Sync WooCommerce contacts on Mautic seamlessly with Mautic WooCommerce Integration plugin and create an e-commerce marketing strategy.
 
 == Description ==
 
-SYNC YOUR CUSTOMERS DATA ON MAUTIC FOR PRECISE TARGETING WITH THE BEST MAUTIC WOOCOMMERCE INTEGRATION PLUGIN
+SYNC YOUR CUSTOMERS DATA ON MAUTIC, A MARKETING AUTOMATION TOOL FOR PRECISE TARGETING WITH THE BEST WOOCOMMERCE MAUTIC INTEGRATION PLUGIN
 
-Integration with Mautic for WooCommerce is a marketing automation plugin that sends the customer data of your WooCommerce store to Mautic automatically. This plugin creates over 20 custom fields on which your customer data is sent. Merchants can segment their customers on behalf of this information to create perfect targeting campaigns that increase conversions. The plugin also monitors the contact activities on the eCommerce store and captures them for Mautic updates whenever a user registers, updates his profile, etc.
+Integration with Mautic for WooCommerce is a [**marketing automation**](https://makewebbetter.com/blog/mautic-best-open-source-marketing-automation-software-online-business/?utm_source=MWB-mautic-org&utm_medium=MWB-org-page&utm_campaign=MWB-mautic-org) plugin that sends the customer data of your WooCommerce store to Mautic automatically. WooCommerce Mautic integration plugin creates over 20 custom fields on which your customer data is sent. Merchants can segment their customers on behalf of this information to create perfect targeting campaigns that increase conversions. This Mautic Integration plugin also monitors the contact activities on the eCommerce store and captures them for Mautic updates whenever a user registers, updates his profile, etc.
 
 [youtube https://www.youtube.com/watch?v=zAlzRjNrRI4&t=4s&w=560&h=315&rel=0]
 
-== With the Integration with Mautic for WooCommerce you can: ==
+== WITH THE INTEGRATION WITH MAUTIC FOR WOOCOMMERCE YOU CAN: ==
 
-* Track and nurture your WooCommerce contacts
+* Track and nurture your WooCommerce contacts in Mautic
 * Create over 20 predefined custom fields to segregate your contacts
 * Sync your contacts data in real-time
 * Assign custom tags to your contacts using Mautic
@@ -33,11 +33,13 @@ Integration with Mautic for WooCommerce is a marketing automation plugin that se
 * Automate the process of lead generation through landing pages and forms, emails, text messages, web notifications, social media
 * Segment your contacts on their Recency, Frequency, and Monetary ratings
 
+== PLUGIN MEETS YOUR REQUIREMENT, SO ==
+[**Download Now!!**](https://downloads.wordpress.org/plugin/enhanced-woocommerce-mautic-integration.zip)
 
 == WHAT’S INCLUDED IN OUR FREE INTEGRATION WITH MAUTIC FOR WOOCOMMERCE PLUGIN: ==
 
 **1) Real-time Data Syncing**
-With this Mautic WooCommerce Integration plugin, you can sync the data of your users to Mautic in real-time or in every 5 minutes. If you choose the “Instant Sync” option, as soon as a user registers on your site, the plugin will start syncing their data whenever an activity like a change in order status takes place. If you choose the “Every 5 Minutes” option, the cron will run every 5 minutes and will sync the data.
+With the Mautic WooCommerce Integration plugin, you can sync the data of your users to Mautic(marketing automation tool) in real-time or every 5 minutes. If you choose the “Instant Sync” option, as soon as a user registers on your site, this Mautic WooCommerce plugin will start syncing their data whenever an activity like a change in order status takes place. If you choose the “Every 5 Minutes” option, the cron will run every 5 minutes and will sync the data.
 
 **2) Custom Fields**
 Mautic Integration plugin creates over 20 predefined custom fields to capture contact information based on the nature of your business. These custom fields help you in segmenting customers so that you can create high-converting marketing campaigns accordingly.
@@ -46,12 +48,13 @@ Mautic Integration plugin creates over 20 predefined custom fields to capture co
 This marketing automation plugin helps you in organizing your contacts by dividing them into different segments. You can create a number of segments in the Mautic based on the custom field data which the plugin provides and create campaigns accordingly.
 
 **4)  OAuth 2 for Secure Authentication**
-You can secure all the requests made by this plugin with OAuth 2 authentication.
+You can secure all the requests made by this Mautic integration plugin with OAuth 2 authentication.
 
 **5)  Campaign Building**
 You can build several personalized and effective automated campaigns through Mautic to target your customers. These marketing campaigns let you take different actions for different conditions. 
 
-Visit [**Integration With Mautic For WooCommerce Documentation**](https://docs.makewebbetter.com/enhanced-woocommerce-mautic-integration/?utm_source=MWB-mautic-org&utm_medium=MWB-org-page&utm_campaign=MWB-mautic-org) and learn more about the features and working of the plugin.
+Visit [**Integration With Mautic For WooCommerce Documentation**](https://docs.makewebbetter.com/enhanced-woocommerce-mautic-integration/?utm_source=MWB-mautic-org&utm_medium=MWB-org-page&utm_campaign=MWB-mautic-org) and learn more about the features and working of the plugin. 
+Check out [**WooCommerce Mautic Integration plugin Knowledge Base**](https://support.makewebbetter.com/wordpress-plugins-knowledge-base/category/woocommerce-mautic-integration-kb/?utm_source=MWB-mautic-org&utm_medium=MWB-org-page&utm_campaign=MWB-mautic-org).
 
 
 == WHAT PREMIUM VERSION OF INTEGRATION WITH MAUTIC FOR WOOCOMMERCE OFFERS ==
@@ -59,7 +62,7 @@ Visit [**Integration With Mautic For WooCommerce Documentation**](https://docs.m
 * Assign Abandoned Cart Coupon Codes
 * Sync WooCommerce Data Over Mautic Automatically (for Registered and Guest users)
 * Creates 70+ Best Practiced Mautic Custom Fields
-* WooCommerce Customer Segmentation With over 18 Predefined Segments
+* WooCommerce Customer Segmentation with over 18 Predefined Segments
 * Convert Abandoned Carts Into Sales
 * Create Targeted And Converting Automated Campaigns
 * Add Tags Based On User And Order Activities
@@ -73,9 +76,10 @@ Visit [**Integration With Mautic For WooCommerce Documentation**](https://docs.m
 
 == TAKE ADVANTAGE OF EXCLUSIVE FEATURES OF MAUTIC INTEGRATION PLUGIN ==
 
-> Note: Get [**Integration With Mautic For WooCommerce Pro**](https://makewebbetter.com/mautic-woocommerce-integration-pro/?utm_source=MWB-mautic-org&utm_medium=MWB-org-page&utm_campaign=MWB-mautic-org)
+> Note: Get [**Integration With Mautic for WooCommerce Pro**](https://makewebbetter.com/mautic-woocommerce-integration-pro/?utm_source=MWB-mautic-org&utm_medium=MWB-org-page&utm_campaign=MWB-mautic-org)
 
-
+== LIVE DEMO OF PREMIUM VERSION ==
+* [**Mautic WooCommerce Integration Backend demo**](https://demo.makewebbetter.com/get-personal-demo/mautic-woocommerce-integration/?utm_source=MWB-mautic-org&utm_medium=MWB-org-page&utm_campaign=MWB-mautic-org)
 
 == EMAIL TEMPLATES FOR MAUTIC ==
 
@@ -90,6 +94,7 @@ Are you looking for email templates for Mautic that are compatible with the Maut
 == SUPPORT ==
 If you need support or have questions, kindly use our online chat window [**here**](https://makewebbetter.com/?utm_source=MWB-mautic-org&utm_medium=MWB-org-page&utm_campaign=MWB-mautic-org) or connect with us then [**Generate a ticket**](https://makewebbetter.com/submit-query/?utm_source=MWB-mautic-org&utm_medium=MWB-org-page&utm_campaign=MWB-mautic-org)
 
+If our documentation doesn’t contain the solution to your problem, you can visit the [**MakeWebBetter Forums**](https://forums.makewebbetter.com/?utm_source=MWB-mautic-org&utm_medium=MWB-org-page&utm_campaign=MWB-mautic-org) with your question.
 
 == Installation ==
 
@@ -112,13 +117,26 @@ Automatic updates should work like a charm as always though, ensure you backup y
 
 == Frequently Asked Questions ==
 
-=How to set up a new APP in Mautic to get connection keys?=
+= What does the WooCommerce Mautic integration plugin do? =
+
+The WooCommerce Mautic plugin allows you to sync your WooCommerce data over Mautic, so you can engage your online store’s visitors with targeted email marketing, marketing campaigns, contact segmen. With the combined power of WooCommerce and Mautic, whenever a user registers, updates his profile, etc., it watches the contact activities on the eCommerce site and collects them for Mautic updates.
+
+
+
+= What is Mautic? =
+
+[**Mautic**](https://www.mautic.org/) is an open-source marketing automation software that helps online businesses automate their repetitive marketing tasks such as lead generation, contact segmentation, marketing campaigns, lead scoring, etc.
+
+= Who should use the WooCommerce Mautic Integration plugin? =
+This Mautic Integration plugin is ideal for WooCommerce store owners who wish to track leads, customers, and abandoned carts, send marketing emails, and access sophisticated analytics to see how their store is performing using a free Mautic CRM.
+
+= How to set up a new APP in Mautic to get connection keys? =
 
 Please refer to the APP setup section of the connect tab in our Mautic Integration plugin. You will find a link to the APP setup and from there you can follow the steps to set up a new APP in Mautic.
 
-[You can also visit this app setup guide to learn how to set up a new app and get the connection keys](https://docs.makewebbetter.com/mautic-woocommerce-integration-app-setup-guide/)
+[You can also visit this app setup guide to learn how to set up a new app and get the connection keys](https://docs.makewebbetter.com/mautic-woocommerce-integration-app-setup-guide/?utm_source=MWB-mautic-org&utm_medium=MWB-org-page&utm_campaign=MWB-mautic-org)
 
-=Getting problems in creating Mautic custom fields. What should I do?=
+= Getting problems in creating Mautic custom fields. What should I do? =
 
 From the last few responses from our users/clients, we came to know of this common issue “Something went wrong, Please try again later!” while creating the custom fields in Mautic. This could be because of Mautic configuration and permission setup on the server. But we’ve just come up with a solution for this.
 
@@ -138,41 +156,37 @@ There are several ways to do that. The easiest is by going to the /app/cache fol
 
 You can also check out this guide to resolve the cache troubleshooting issue.
 
-=What should I do? I can’t see the API Credentials section in Mautic.=
+= What should I do? I can’t see the API Credentials section in Mautic. =
 
 If your Mautic doesn’t show up in the API Credentials section inside the menu then please make sure that API is enabled in your Mautic account. The same can be achieved from Settings > Configuration > API Settings. Please mark the API enabled checkbox to “YES” and your Mautic account will be enabled for API.
 
-You can also visit this app setup guide for the Mautic setup and learn how to get the connection key.
+You can also visit this [**app setup guide for the Mautic setup**](https://docs.makewebbetter.com/mautic-woocommerce-integration-app-setup-guide/?utm_source=MWB-mautic-org&utm_medium=MWB-org-page&utm_campaign=MWB-mautic-org) and learn how to get the connection key.
 
-=Why is the Mautic Integration plugin not getting redirected back and showing some Mautic error?=
+= Why is the Mautic Integration plugin not getting redirected back and showing some Mautic error? =
 
 Please make sure you are using the correct Mautic base URL and connection keys for authorization. Make sure that the redirect URI set in Mautic APP is the same as your WordPress URL (or you can copy the Redirect URI from the APP setup guide directly).
 
-=I've completed the setup process but real-time user data is not syncing properly in Mautic. Why?=
+= I've completed the setup process but real-time user data is not syncing properly in Mautic. Why? =
 
-Please make sure you have completed the fields set up for the plugin. We have two methods for syncing the data over Mautic.
+Please make sure you have completed the fields set up for the Mautic integration plugin. We have two methods for syncing the data over Mautic.
 
  **Real-time Sync:** You need to select the Instant Sync option in Plugin > Setting Tab > General Setting. Select the Instant Sync option and click Save. Then your Contacts will sync instantly. You can test the sync by creating a test user in your admin.
 
  **Every 5 minutes:**  Synchronization will be done every 5 minutes so make sure that you wait for that much time. Also please assure the WordPress Cron is enabled on your site and works properly. Go to Plugin > Settings > General Setting option and select In Every 5 Minutes Sync option and click Save.
 
-=I am new to Mautic. How can I get Mautic to download?=
-
-Mautic is an open-source CRM and can be easily downloaded from Mautic.org.
-
-=How to add specific tags to contacts in Mautic?=
+= How to add specific tags to contacts in Mautic? =
 
 Go to your WordPress Dashboard > Mautic > Settings. In the General settings, you’ll find a feature named custom tags. You can add your tags to this provided field.
 
-=The Mautic Integration Plugin is disconnected from Mautic and shows the notice of re-authorization. How can I fix it?=
+= The Mautic Integration Plugin is disconnected from Mautic and shows the notice of re-authorization. How can I fix it? =
 
-The connection is lost when the Mautic refresh token is Expires. You only need to change the Access token lifetime i.e 3600 or more and Refresh token lifetime i.e 365 days.
+The connection is lost when the Mautic refresh token expires. You only need to change the Access token lifetime i.e 3600 or more and Refresh token lifetime i.e 365 days.
 
 To do this, login to Mautic, click on Setting Tab on the right top corner. Now go to Configuration > API Settings. You’ll find the settings to change the access and refresh token lifetime.
 
 You can also check our APP setup guide to learn how to do it.
 
-=Is Mautic Integration plugin compatible with Mautic 3.x?=
+= Is Mautic WooCommerce Integration plugin compatible with Mautic 3.x? =
 
 Yes, the plugin is fully compatible with the Mautic 3.x version series.
 
@@ -186,22 +200,89 @@ Yes, the plugin is fully compatible with the Mautic 3.x version series.
 4. Allow Mautic access to connect with the extension.
 5. Selection to create custom fields.
 6. Custom Fields by the extension.
-7. Created Custom Fields
+7. Created Custom Fields in Mautic
 8. Custom Fields on Mautic.
 9. General Settings.
-10. Mautic Automation.
+10. Mautic Marketing Automation.
 
 
 == Changelog ==
 
-= 1.0.0 =
-* First version 
+= 2.2.0 - Released on 27 August 2021 =
+* Bug Fixes
+* Compatibility with Wordpress 5.8 Version 
+* Compatibility with Woocommerce 5.6 Version
 
-= 1.0.1 =
+= 2.1.4 - Released on 6 April 2021 =
+* Bug Fixes
+* Compatibility with Mautic 3.3.2 Version 
+* Compatibility with Wordpress 5.7.0 Version 
+* Compatibility with Woocommerce 5.1.0 Version
+
+= 2.1.3 =
+* Bug Fixes
+* Compatibility with Mautic 3.2.1 Version 
+* Compatibility with Wordpress 5.6.0 Version 
+* Compatibility with Woocommerce 4.8.0 Version
+
+= 2.1.2 =
+* Bug Fixes
+* Compatibility with Mautic 3.1.2 Version 
+* Compatibility with Wordpress 5.5.3 Version 
+* Compatibility with Woocommerce 4.7.0 Version
+
+= 2.1.1 =
+* Bug Fixes
+* Compatibility with Mautic 3.1.0 Version 
+* Compatibility with Wordpress 5.5.1 Version 
+* Compatibility with Woocommerce 4.4.1 Version
+
+= 2.1.0 =
+* Fix:Bug Fixes
+* New:Compatibility with Mautic 3.0.0 Version 
+* New:Compatibility with Wordpress 5.4.2 Version 
+* New:Compatibility with Woocommerce 4.2.0 Version
+
+= 2.0.7 =
+* Bug Fixes
+* Added Re-authorization notice
+* Compatibility with Wordpress 5.3.2 Version 
+* Compatibility with Woocommerce 3.9.2 Version
+
+= 2.0.6 =
+* Bug Fixes and Enhancement
+* Compatibility with Wordpress 5.3 Version 
+* Compatibility with Woocommerce 3.8.1 Version
+
+= 2.0.5 =
+* Fixed OAuth redirection issue
+
+= 2.0.4 =
+* Implement Instant sync method
+* Bug Fixes
+
+
+= 2.0.3 =
+* Add custom tags to contacts
+* Better error tracking and log management
+* Bug Fixes
+
+= 2.0.2 =
 * Bug Fixes and Enhancement
 
-= 1.0.2 =
+= 2.0.1 =
+* Bug Fixes in App Setup
+
+= 2.0.0 =
+* Added Email in WooCommerce log file
+* Bug Fixes and Design Enhancement
+
+= 1.0.5 =
 * Bug Fixes and Enhancement
+
+= 1.0.4 =
+* Bug Fixes and Enhancement
+
 
 = 1.0.3 =
 * Added support for connection reset
@@ -212,87 +293,24 @@ Yes, the plugin is fully compatible with the Mautic 3.x version series.
 * Added skype link to get instant support 
 * Bug Fixes
 
-= 1.0.4 =
+= 1.0.2 =
 * Bug Fixes and Enhancement
 
-= 1.0.5 =
+= 1.0.1 =
 * Bug Fixes and Enhancement
 
-= 2.0.0 =
-* Added Email in WooCommerce log file
-* Bug Fixes and Design Enhancement
-
-= 2.0.1 =
-* Bug Fixes in App Setup
-
-= 2.0.2 =
-* Bug Fixes and Enhancement
-
-= 2.0.3 =
-* Add custom tags to contacts
-* Better error tracking and log management
-* Bug Fixes
-
-= 2.0.4 =
-* Implement Instant sync method
-* Bug Fixes
-
-= 2.0.5 =
-* Fixed OAuth redirection issue
-
-= 2.0.6 =
-* Bug Fixes and Enhancement
-* Compatibility with Wordpress 5.3 Version 
-* Compatibility with Woocommerce 3.8.1 Version
-
-= 2.0.7 =
-* Bug Fixes
-* Added Re-authorization notice
-* Compatibility with Wordpress 5.3.2 Version 
-* Compatibility with Woocommerce 3.9.2 Version
-
-= 2.1.0 =
-* Fix:Bug Fixes
-* New:Compatibility with Mautic 3.0.0 Version 
-* New:Compatibility with Wordpress 5.4.2 Version 
-* New:Compatibility with Woocommerce 4.2.0 Version
-
-= 2.1.1 =
-* Bug Fixes
-* Compatibility with Mautic 3.1.0 Version 
-* Compatibility with Wordpress 5.5.1 Version 
-* Compatibility with Woocommerce 4.4.1 Version
-
-= 2.1.2 =
-* Bug Fixes
-* Compatibility with Mautic 3.1.2 Version 
-* Compatibility with Wordpress 5.5.3 Version 
-* Compatibility with Woocommerce 4.7.0 Version
-
-= 2.1.3 =
-* Bug Fixes
-* Compatibility with Mautic 3.2.1 Version 
-* Compatibility with Wordpress 5.6.0 Version 
-* Compatibility with Woocommerce 4.8.0 Version
-
-= 2.1.4 - Released on 6 April 2021 =
-* Bug Fixes
-* Compatibility with Mautic 3.3.2 Version 
-* Compatibility with Wordpress 5.7.0 Version 
-* Compatibility with Woocommerce 5.1.0 Version
-
-= 2.1.5 - Released on 8 May 2021 =
-* Compatibility with Mautic 3.3.3 Version 
-* Compatibility with Wordpress 5.7.1 Version 
-* Compatibility with Woocommerce 5.2.2 Version
-
+= 1.0.0 =
+* First version 
 
 == Upgrade Notice ==
 
-= 2.1.5  - Released on 8 May 2021 =
-** Compatibility with Mautic 3.3.3 Version 
-* Compatibility with Wordpress 5.7.1 Version 
-* Compatibility with Woocommerce 5.2.2 Version
+= 2.2.0  - Released on 27 August 2021 =
+* Bug Fixes 
+* Compatibility with Wordpress 5.8 Version 
+* Compatibility with Woocommerce 5.6 Version
+
+
+
 
 
 
