@@ -57,7 +57,6 @@ class MauticWooAjaxHandler {
 		add_action( 'wp_ajax_mautic_woo_allow_reauth', array( &$this, 'mautic_woo_allow_reauth' ) );
 
 		// send support request.
-		add_action( 'wp_ajax_mautic_woo_support_development', array( &$this, 'mautic_woo_support_development' ) );
 
 		add_action( 'wp_ajax_mautic_woo_search_for_custom_fields', array( &$this, 'mautic_woo_search_for_custom_fields' ) );
 
@@ -74,7 +73,7 @@ class MauticWooAjaxHandler {
 
 		$response = array(
 			'status'  => true,
-			'message' => __( 'Success', 'mautic-woo' ),
+			'message' => __( 'Success', 'enhanced-woocommerce-mautic-integration' ),
 		);
 
 		check_ajax_referer( 'mauwoo_security', 'mauwooSecurity' );
@@ -89,7 +88,7 @@ class MauticWooAjaxHandler {
 			if ( ! $status ) {
 
 				$response['status']  = false;
-				$response['message'] = __( 'Something went wrong, please check your Keys', 'mautic-woo' );
+				$response['message'] = __( 'Something went wrong, please check your Keys', 'enhanced-woocommerce-mautic-integration' );
 			}
 		}
 
@@ -195,6 +194,7 @@ class MauticWooAjaxHandler {
 	 * Mark setup is completed.
 	 *
 	 * @since 1.0.0
+	 * @return boolean - is setup completed
 	 */
 	public function mautic_woo_setup_completed() {
 		// check the nonce sercurity.
@@ -207,6 +207,7 @@ class MauticWooAjaxHandler {
 	 * Get started on admin call.
 	 *
 	 * @since 1.0.0
+	 * @return boolean - get started
 	 */
 	public function mautic_woo_get_started_call() {
 
@@ -219,6 +220,7 @@ class MauticWooAjaxHandler {
 	 * Save user choice for fields.
 	 *
 	 * @since 1.0.0
+	 * @return boolean - save user choice
 	 */
 	public function mautic_woo_save_user_choice() {
 
@@ -235,6 +237,7 @@ class MauticWooAjaxHandler {
 	 * Move to custom fields.
 	 *
 	 * @since 1.0.0
+	 * @return boolean - move to custom fields section
 	 */
 	public function mautic_woo_move_to_custom_fields() {
 
@@ -247,6 +250,7 @@ class MauticWooAjaxHandler {
 	 * Clearing user choice for fields selection.
 	 *
 	 * @since 1.0.0
+	 * @return boolean - clear user choice
 	 */
 	public function mautic_woo_clear_user_choice() {
 
@@ -268,7 +272,7 @@ class MauticWooAjaxHandler {
 
 		$response = array(
 			'code'    => 400,
-			'message' => __( 'Something went wrong, Please check logs', 'mautic-woo' ),
+			'message' => __( 'Something went wrong, Please check logs', 'enhanced-woocommerce-mautic-integration' ),
 			'label'   => '',
 		);
 
@@ -308,7 +312,7 @@ class MauticWooAjaxHandler {
 					} elseif ( 'created' === $single_property['status'] ) {
 
 						$response['code']    = 201;
-						$response['message'] = __( 'Field already exists', 'mautic-woo' );
+						$response['message'] = __( 'Field already exists', 'enhanced-woocommerce-mautic-integration' );
 					}
 
 					$response['label'] = $single_property['detail']['label'];
@@ -347,50 +351,13 @@ class MauticWooAjaxHandler {
 	 * Setting parameter to allow reauth from Mautic APP.
 	 *
 	 * @since 1.0.0
+	 * @return boolean - allow reauth
 	 */
 	public function mautic_woo_allow_reauth() {
 
 		check_ajax_referer( 'mauwoo_security', 'mauwooSecurity' );
 		delete_option( 'mautic_woo_oauth_success' );
 		delete_option( 'mautic_woo_valid_client_ids_stored' );
-		return true;
-	}
-
-	/**
-	 * Send plugin development support request to makewebbetter.
-	 *
-	 * @since 1.0.3
-	 */
-	public function mautic_woo_support_development() {
-
-		check_ajax_referer( 'mauwoo_security', 'mauwooSecurity' );
-		$to       = MAUTIC_WOO_INTEGRATION_EMAIL;
-		$name     = site_url();
-		$content  = 'Plugin Development Support Request' . PHP_EOL;
-		$content .= 'Site Url : ' . $name . PHP_EOL;
-		$content .= 'Admin Email : ' . get_option( 'admin_email' ) . PHP_EOL;
-		if ( is_user_logged_in() ) {
-			$user     = wp_get_current_user();
-			$content .= 'Admin Name : ' . $user->display_name . PHP_EOL;
-		}
-
-		$date = date_i18n( wc_date_format(), get_option( 'mautic_woo_activation_time', time() ) );
-		$time = date_i18n( wc_time_format(), get_option( 'mautic_woo_activation_time', time() ) );
-
-		$activation_time = $date . '@' . $time;
-
-		$content .= 'Activation Time : ' . $activation_time . PHP_EOL;
-
-		$subject = 'Plugin Development Support Request [Mautic]';
-
-		$sent = wp_mail( $to, $subject, $content );
-
-		if ( $sent ) {
-
-			update_option( 'mautic_woo_support_request', true );
-		}
-
-		update_option( 'mautic_woo_move_to_custom_fields', true );
 		return true;
 	}
 

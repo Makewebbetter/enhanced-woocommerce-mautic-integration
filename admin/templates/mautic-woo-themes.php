@@ -4,14 +4,16 @@
  *
  * This file is used to markup the admin settings of the plugin.
  *
- * @package enhanced-woocommerce-mautic-integration
+ * @since 1.0.0
+ * @package  enhanced-woocommerce-mautic-integration
+ * @subpackage enhanced-woocommerce-mautic-integration/admin/templates
  */
 
 ?>
 <div class="mauwoo-fields-header mauwoo-common-header text-center">
-	<h2><?php esc_html_e( 'Mautic Email Templates', 'mautic-woo' ); ?></h2>
+	<h2><?php esc_html_e( 'Mautic Email Templates', 'enhanced-woocommerce-mautic-integration' ); ?></h2>
 	<a target="_blank" href="<?php echo esc_url( 'https://makewebbetter.com/mautic-email-templates/' ); ?>"
-		class="mauwoo-go-pro-now mauwoo-button"><?php esc_html_e( 'Get this Feature Now', 'mautic-woo' ); ?></a>
+		class="mauwoo-go-pro-now mauwoo-button"><?php esc_html_e( 'Get this Feature Now', 'enhanced-woocommerce-mautic-integration' ); ?></a>
 </div>
 <a href="<?php echo esc_url( 'https://makewebbetter.com/mautic-email-templates/' ); ?>" target="_blank">
 	<img class="mautic-woo-center-image"
@@ -19,5 +21,5 @@
 </a>
 <div class="mauwoo-fields-header mauwoo-common-header text-center">
 	<a target="_blank" href="<?php echo esc_url( 'https://makewebbetter.com/mautic-email-templates/' ); ?>"
-		class="mauwoo-go-pro-now mauwoo-button" ><?php esc_html_e( 'Browse More', 'mautic-woo' ); ?></a>
+		class="mauwoo-go-pro-now mauwoo-button" ><?php esc_html_e( 'Browse More', 'enhanced-woocommerce-mautic-integration' ); ?></a>
 </div>

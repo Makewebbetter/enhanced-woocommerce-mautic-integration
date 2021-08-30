@@ -321,35 +321,17 @@
 					},
 				}
 			);
-			jQuery( '#mautic_go_pro_link' ).live(
+			jQuery( '#mautic_go_pro_link' ).on(
 				'click',
 				function(e) {
 					e.preventDefault();
 					jQuery( '.mauwoo_pop_up_wrap' ).show();
 				}
 			);
-			jQuery( '#mautic_woo_close_popup' ).click(
+			jQuery( '#mautic_woo_close_popup' ).on( 'click',
 				function(){
 					$( '.mauwoo_pop_up_wrap' ).hide();
 
-				}
-			);
-
-			// v-1.0.3
-
-			jQuery( 'a.mauwoo_support_development' ).on(
-				'click',
-				function(e) {
-					e.preventDefault();
-
-					jQuery.post(
-						ajaxUrl,
-						{ 'action' : 'mautic_woo_support_development', 'mauwooSecurity' : mauwooSecurity, async: false },
-						function( status ){
-
-							window.location.href = mauwooCustomFields;
-						}
-					);
 				}
 			);
 

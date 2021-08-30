@@ -4,13 +4,15 @@
  *
  * This file is used to markup the admin settings of the plugin.
  *
- * @package enhanced-woocommerce-mautic-integration
+ * @since 1.0.0
+ * @package  enhanced-woocommerce-mautic-integration
+ * @subpackage enhanced-woocommerce-mautic-integration/admin/templates
  */
 
 ?>
 <div class="mauwoo-fields-header mauwoo-common-header text-center">
-	<h2><?php esc_html_e( 'Track visitors on your site.', 'mautic-woo' ); ?></h2>
-	<a target="_blank" class="mauwoo-button" href=" <?php echo esc_url( MAUTIC_WOO_PRO_LINK ); ?> "><?php esc_html_e( 'Get this Feature Now', 'mautic-woo' ); ?></a>
+	<h2><?php esc_html_e( 'Track visitors on your site.', 'enhanced-woocommerce-mautic-integration' ); ?></h2>
+	<a target="_blank" class="mauwoo-button" href=" <?php echo esc_url( MAUTIC_WOO_PRO_LINK ); ?> "><?php esc_html_e( 'Get this Feature Now', 'enhanced-woocommerce-mautic-integration' ); ?></a>
 </div>
 
 <a href="<?php echo esc_url( MAUTIC_WOO_PRO_LINK ); ?>"

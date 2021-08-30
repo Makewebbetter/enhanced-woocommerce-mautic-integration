@@ -368,7 +368,6 @@ span.mauwoo_oauth_span label::after {
   transform: translateY(-50%);
 }
 .popupwrap .mauwoo-message-area, .mauwoo-customer-message-area, .mauwoo-subs-message-area{
-  /*max-height: 150px;*/
   overflow-y: auto;
 }
 /* progress bar*/
@@ -909,23 +908,19 @@ span.mauwoo_oauth_span label::after {
 }
 @-webkit-keyframes mauwoo-animatescaleclose {
   0% {
-	/*opacity: 0; */
 	-webkit-transform: translate3d(0,40px,0) scale3d(1,1,1);
   }
   100% {
-	/*opacity: 0; */
 	-webkit-transform: translate3d(0,0,0) scale3d(0,0,0);
   }
 }
 
 @keyframes mauwoo-animatescaleclose {
   0% {
-	/*opacity: 0;*/
 	-webkit-transform: translate3d(0,40px,0) scale3d(1,1,1);
 	transform: translate3d(0,40px,0) scale3d(1,1,1);
   }
   100% {
-	/*opacity: 0;*/
 	 -webkit-transform: translate3d(0,0,0) scale3d(0,0,0);
 	transform: translate3d(0,0,0) scale3d(0,0,0);
   }
@@ -1274,7 +1269,7 @@ a:hover{
   .mauwoo-overview-container,
   .mauwoo-connection{
 	max-width: 100%;
-
+  }
   .mauwoo-nav-tab span {
 	display: none;
   }
@@ -1299,7 +1294,7 @@ a:hover{
   float: right;
 }
 #mautic_woo_close_popup {
-color: #aaaaa;
+color: #aaaaaa;
 float: right;
 font-size: 17px;
 font-weight: bold;
@@ -1311,6 +1306,22 @@ text-decoration: none;
 .mauwoo-order-status {
   height: 38px;
   width: 248px;
+}
+
+#progress_bar_hide {
+  display: none;
+}
+
+#seg_img {
+  width:70%;
+}
+
+#render_form_data {
+  text-align:center;
+}
+
+#woo_premium {
+  font-size:18px;
 }
 
 /*=====  End of media-query  ======*/

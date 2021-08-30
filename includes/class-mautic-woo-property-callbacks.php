@@ -97,6 +97,7 @@ class MauticWooPropertyCallbacks {
 	 *
 	 * @param  string $property_name    name of the contact property.
 	 * @since 1.0.0
+	 * @return string - property value
 	 */
 	public function _get_property_value( $property_name ) {
 
@@ -152,12 +153,21 @@ class MauticWooPropertyCallbacks {
 	/**
 	 * User email
 	 *
-	 * @return string
+	 * @return string user email
 	 * @since 1.0.0
 	 */
 	public function _get_mail() {
 		// get it from user object.
-		return $this->_user->data->user_email;
+		$user_email = '';
+		if ( ! empty( $this->_user ) ) {
+			$data = '';
+			$data = $this->_user->data;
+			if ( ! empty( $data ) ) {
+				$user_email = '';
+				$user_email = $data->user_email;
+			}
+		}
+		return $user_email;
 	}
 
 
@@ -202,7 +212,7 @@ class MauticWooPropertyCallbacks {
 
 		$account_creation = strtotime( $account_creation );
 
-		$this->_cache['mwb_acc_creation_date'] = date( 'Y/m/d', $account_creation );
+		$this->_cache['mwb_acc_creation_date'] = gmdate( 'Y/m/d', $account_creation );
 
 		$this->_cache['mwb_current_orders'] = 0;
 
@@ -258,13 +268,15 @@ class MauticWooPropertyCallbacks {
 
 				$this->_cache['mwb_total_val_of_orders'] += floatval( $order_total );
 
-				if ( in_array( $order_status, array( 'failed', 'cancelled', 'refunded', 'completed' ), true ) ) {
+				if ( 'failed' !== $order_status && 'cancelled' !== $order_status && 'refunded' !== $order_status && 'completed' !== $order_status ) {
+
 					$this->_cache['mwb_current_orders'] += 1;
 				}
+
 				// Check for last order and finish all last order calculations.
 				if ( ! $counter ) {
 					// last order date.
-					$this->_cache['mwb_last_order_date'] = date( 'Y/m/d', get_post_time( 'U', true, $order_id ) );
+					$this->_cache['mwb_last_order_date'] = gmdate( 'Y/m/d', get_post_time( 'U', true, $order_id ) );
 
 					$last_order_date = get_post_time( 'U', true, $order_id );
 
@@ -288,7 +300,7 @@ class MauticWooPropertyCallbacks {
 				// check for first order.
 				if ( ( count( $customer_orders ) - 1 ) === $counter ) {
 					// first order based calculation here..
-					$this->_cache['mwb_first_order_date'] = date( 'Y/m/d', get_post_time( 'U', true, $order_id ) );
+					$this->_cache['mwb_first_order_date'] = gmdate( 'Y/m/d', get_post_time( 'U', true, $order_id ) );
 					$this->_cache['mwb_first_order_val']  = $order_total;
 				}
 
