@@ -1,6 +1,6 @@
-![Build Status](https://img.shields.io/travis/twbs/bootstrap/master.svg) ![Active installs](https://img.shields.io/badge/Active-300%2B-brightgreen) ![License](https://img.shields.io/badge/License-GPLv3%20or%20later-yellowgreen) ![WP tested](https://img.shields.io/badge/WP%20tested-5.7-brightgreen) ![WC tested](https://img.shields.io/badge/WC%20tested-5.1-brightgreen) ![Requires PHP](https://img.shields.io/badge/Requires%20PHP-5.6-blue)
+![Build Status](https://img.shields.io/travis/twbs/bootstrap/master.svg) ![Active installs](https://img.shields.io/badge/Active-400%2B-brightgreen) ![License](https://img.shields.io/badge/License-GPLv3%20or%20later-yellowgreen) ![WP tested](https://img.shields.io/badge/WP%20tested-5.8-brightgreen) ![WC tested](https://img.shields.io/badge/WC%20tested-5.6-brightgreen) ![Requires PHP](https://img.shields.io/badge/Requires%20PHP-5.6-blue)
 # Integration with Mautic for WooCommerce
-![Integration with Mautic for WooCommerce](https://ps.w.org/enhanced-woocommerce-mautic-integration/assets/banner-772x250.png?rev=2377647)
+![Integration with Mautic for WooCommerce](https://ps.w.org/enhanced-woocommerce-mautic-integration/assets/banner-772x250.png?rev=2589755)
 * Contributors: MakeWebBetter
 * Author URI: [https://makewebbetter.com/](https://makewebbetter.com/?utm_source=MWB-mautic-git&utm_medium=MWB-git-page&utm_campaign=MWB-mautic-git)
 * Tags: ecommerce, marketing automation, mautic, mautic integration, woocommerce
@@ -9,17 +9,17 @@
 
 # Description
 
-**SYNC YOUR CUSTOMERS DATA ON MAUTIC FOR PRECISE TARGETING WITH THE BEST MAUTIC WOOCOMMERCE INTEGRATION PLUGIN**
+**SYNC YOUR CUSTOMERS DATA ON MAUTIC, A MARKETING AUTOMATION TOOL FOR PRECISE TARGETING WITH THE BEST WOOCOMMERCE MAUTIC INTEGRATION PLUGIN**
 
-[**Integration with Mautic for WooCommerce**](https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/)  is a marketing automation plugin that sends the customer data of your WooCommerce store to Mautic automatically. This plugin creates over 20 custom fields on which your customer data is sent. Merchants can segment their customers on behalf of this information to create perfect targeting campaigns that increase conversions. The plugin also monitors the contact activities on the eCommerce store and captures them for Mautic updates whenever a user registers, updates his profile, etc.
+[Integration with Mautic for WooCommerce](https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/) is a [marketing automation](https://makewebbetter.com/blog/mautic-best-open-source-marketing-automation-software-online-business/?utm_source=MWB-mautic-git&utm_medium=MWB-git-page&utm_campaign=MWB-mautic-git) plugin that sends the customer data of your WooCommerce store to Mautic automatically. WooCommerce Mautic integration plugin creates over 20 custom fields on which your customer data is sent. Merchants can segment their customers on behalf of this information to create perfect targeting campaigns that increase conversions. This Mautic Integration plugin also monitors the contact activities on the eCommerce store and captures them for Mautic updates whenever a user registers, updates his profile, etc.
 
-[**How to Connect your WooCommerce Store with Mautic? Setup Tutorial 2020**](https://www.youtube.com/watch?v=zAlzRjNrRI4&t=4s)
+[How to Connect your WooCommerce Store with Mautic? Setup Tutorial 2020](https://www.youtube.com/watch?v=zAlzRjNrRI4&t=4s)
 
-**With the Integration with Mautic for WooCommerce you can:**
+**WITH THE INTEGRATION WITH MAUTIC FOR WOOCOMMERCE YOU CAN:**
 
-* Track and nurture your WooCommerce contacts
+* Track and nurture your WooCommerce contacts in Mautic
 * Create over 20 predefined custom fields to segregate your contacts
-* Sync your contacts data in real-time
+* Sync your contacts data in real-time over Mautic
 * Assign custom tags to your contacts using Mautic
 * Create high-converting marketing campaigns
 * Automate the process of lead generation through landing pages and forms, emails, text messages, web notifications, social media
@@ -28,21 +28,25 @@
 ## WHAT’S INCLUDED IN OUR FREE INTEGRATION WITH MAUTIC FOR WOOCOMMERCE PLUGIN:
 
 **1) Real-time Data Syncing**
-With this Mautic WooCommerce Integration plugin, you can sync the data of your users to Mautic in real-time or in every 5 minutes. If you choose the “Instant Sync” option, as soon as a user registers on your site, the plugin will start syncing their data whenever an activity like a change in order status takes place. If you choose the “Every 5 Minutes” option, the cron will run every 5 minutes and will sync the data.
+With the Mautic WooCommerce Integration plugin, you can sync the data of your users to Mautic(marketing automation tool) in real-time or every 5 minutes. If you choose the “Instant Sync” option, as soon as a user registers on your site, this Mautic WooCommerce plugin will start syncing their data whenever an activity like a change in order status takes place. If you choose the “Every 5 Minutes” option, the cron will run every 5 minutes and will sync the data.
 
-**2) Custom Fields**
-This plugin creates over 20 predefined custom fields to capture contact information based on the nature of your business. These custom fields help you in segmenting customers so that you can create high-converting marketing campaigns accordingly.
+**2) Create Custom Fields**
+Mautic Integration plugin creates over 20 predefined custom fields to capture contact information based on the nature of your business. These custom fields help you in segmenting customers so that you can create high-converting marketing campaigns accordingly.
 
 **3)  Contact Segments**
 This marketing automation plugin helps you in organizing your contacts by dividing them into different segments. You can create a number of segments in the Mautic based on the custom field data which the plugin provides and create campaigns accordingly.
 
 **4)  OAuth 2 for Secure Authentication**
-You can secure all the requests made by this plugin with OAuth 2 authentication.
+You can secure all the requests made by this Mautic integration plugin with OAuth 2 authentication.
 
 **5)  Campaign Building**
 You can build several personalized and effective automated campaigns through Mautic to target your customers. These marketing campaigns let you take different actions for different conditions. 
 
 Visit [**Integration With Mautic for WooCommerce Documentation**](https://docs.makewebbetter.com/enhanced-woocommerce-mautic-integration/?utm_source=MWB-mautic-git&utm_medium=MWB-git-page&utm_campaign=MWB-mautic-git) and learn more about the features and working of the plugin.
+
+Check out [**WooCommerce Mautic Integration plugin Knowledge Base**](https://support.makewebbetter.com/wordpress-plugins-knowledge-base/category/woocommerce-mautic-integration-kb/?utm_source=MWB-mautic-git&utm_medium=MWB-git-page&utm_campaign=MWB-mautic-git).
+
+
 
 ## WHAT PREMIUM VERSION OF INTEGRATION WITH MAUTIC FOR WOOCOMMERCE OFFERS
 
@@ -67,6 +71,10 @@ Visit [**Integration With Mautic for WooCommerce Documentation**](https://docs.m
 
 > Note:  Get [**Integration With Mautic for WooCommerce Pro**](https://makewebbetter.com/mautic-woocommerce-integration-pro/?utm_source=MWB-mautic-git&utm_medium=MWB-git-page&utm_campaign=MWB-mautic-git)
 
+## LIVE DEMO OF PREMIUM VERSION 
+* [**Mautic WooCommerce Integration Demo**](https://demo.makewebbetter.com/get-personal-demo/mautic-woocommerce-integration/?utm_source=MWB-mautic-git&utm_medium=MWB-git-page&utm_campaign=MWB-mautic-git)
+
+
 ## EMAIL TEMPLATES FOR MAUTIC 
 
 Are you looking for email templates for Mautic that are compatible with the Mautic email builder?
@@ -77,15 +85,16 @@ Are you looking for email templates for Mautic that are compatible with the Maut
 
 ### **SUPPORT**
 
-If you need support or have questions, kindly use our online chat window [**here**](https://makewebbetter.com/?utm_source=MWB-mautic-git&utm_medium=MWB-git-page&utm_campaign=MWB-mautic-git) or connect with us then [**Generate a ticket**](https://makewebbetter.com/submit-query/?utm_source=MWB-mautic-git&utm_medium=MWB-git-page&utm_campaign=MWB-mautic-git).
+If you need support or have questions, kindly use our online chat window [here](https://makewebbetter.com/?utm_source=MWB-mautic-git&utm_medium=MWB-git-page&utm_campaign=MWB-mautic-git) or connect with us then [Generate a ticket](https://makewebbetter.com/submit-query/?utm_source=MWB-mautic-git&utm_medium=MWB-git-page&utm_campaign=MWB-mautic-git)
 
 ### **MORE ABOUT MAKEWEBBETTER**
 
-- [**Our Official Website**](https://makewebbetter.com/?utm_source=MWB-mautic-git&utm_medium=MWB-git&utm_campaign=git)
+- [**Our Official Website**](https://makewebbetter.com/?utm_source=MWB-mautic-git&utm_medium=MWB-git-page&utm_campaign=MWB-mautic-git)
 - [**Follow us on Facebook Page**](https://www.facebook.com/makewebbetter)
 - [**Tweet us on @MakeWebBetter**](https://twitter.com/makewebbetter)
 - [**Visit our LinkedIn Account**](https://www.linkedin.com/company/makewebbetter)
 - [**Subscribe To Our YouTube Channel**](https://www.youtube.com/channel/UC7nYNf0JETOwW3GOD_EW2Ag)
 - [**Follow Our SlideShare**](https://www.slideshare.net/MakeWebBetter)
+
 
 
